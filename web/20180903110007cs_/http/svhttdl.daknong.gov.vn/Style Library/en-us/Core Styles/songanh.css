@@ -1795,6 +1795,10 @@ img.abc2 {
 	border:0px!important;
 	margin-bottom:10px;
 }
+/*img trang chi tiet*/
+.zoneCent-GT img{
+	width:500px;
+}
 /*thu tuc hanh chinh*/
 table.ds_VBPL .row_title td{
 	background-color: #278ec9;
