@@ -1803,7 +1803,28 @@ img.abc2 {
 }
 .zoneCent-GT .noiDung{
 	padding-top:15px;
-	}
+}
+.zoneCent-GT .noiDung .title{
+	color:red;
+	text-align: justify;
+    font-family: arial;
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+.zoneCent-GT .noiDung .moTa{
+	color:#3442ff;
+	text-align: justify;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+.zoneCent-GT .noiDung .contents{
+text-align: justify;
+font-family: arial;
+padding: 5px 0;
+font-size: 12px;
+}
 #breadCrumb0{
 	border:0px!important;
 	margin-bottom:10px;
