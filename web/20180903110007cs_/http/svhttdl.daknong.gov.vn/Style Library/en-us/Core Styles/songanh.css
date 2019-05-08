@@ -29,6 +29,12 @@ body.v4master1 td, body.v4master1 a, body.v4master1 a:link,.v4master1 .ms-WPBody
 body.songanh,body.songanh-tintuc,body.v4master1{
 	color:#535353;
 }
+.thongbao .div_header_style1{
+	background: url(/img/Banner/ms-menu.jpg) repeat-x left bottom;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+}
 #s4-workspace1{		
 	overflow:hidden;
 	background:url("../../../../../../20180629163147im_/http/svhttdl.daknong.gov.vn/imgSonganh/bgbodyB.png") no-repeat left bottom;	
@@ -54,6 +60,10 @@ ul, li, p{
 }
 li {
 	list-style: none;
+}
+.div-image a img{
+	border:0px;
+	padding-top:0px;
 }
 a img{
 	border:0px;
@@ -92,7 +102,7 @@ a img{
 	clear:both;
 	overflow:hidden;
 	height:34px;
-	background: url("../../../../../../20180629163147im_/http/svhttdl.daknong.gov.vn/imgSonganh/ms-menu.jpg") repeat-x left bottom;
+	background: url("/img/Banner/ms-menu.jpg") repeat-x left bottom;
 	top:151px;
 	position:relative;
 }
@@ -1789,8 +1799,11 @@ img.abc2 {
 	background:#fff url("../../../../../../20180629163147im_/http/svhttdl.daknong.gov.vn/imgSonganh/r-titlemn.png") repeat-x left top;
 }
 .zoneCent-GT{
-	padding:5px 10px 10px 10px;
+	padding:5px 5px 0px 5px;
 }
+.zoneCent-GT .noiDung{
+	padding-top:15px;
+	}
 #breadCrumb0{
 	border:0px!important;
 	margin-bottom:10px;
