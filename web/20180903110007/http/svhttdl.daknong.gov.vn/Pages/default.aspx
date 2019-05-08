@@ -2123,168 +2123,35 @@ var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
 
         <div class="ppy" id="ppy1">
             <ul class="ppy-imglist">
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Quần%20vợt4_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Quần%20vợt4_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Hội%20nghị%20tuyên%20dương_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Hội%20nghị%20tuyên%20dương_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Giải%20vô%20địch%20bóng%20chuyền%20năm%202013_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Giải%20vô%20địch%20bóng%20chuyền%20năm%202013_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                                                   </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Bế%20mạc%20Tây%20nguyên7_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Bế%20mạc%20Tây%20nguyên7_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Tặng%20hoa_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Tặng%20hoa_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Bế%20mạc%20Tây%20nguyên4_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Bế%20mạc%20Tây%20nguyên4_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Phát%20biểu%20khai%20mạc_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Phát%20biểu%20khai%20mạc_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Tiếng%20khèn%20cao%20nguyên_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Tiếng%20khèn%20cao%20nguyên_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                                                   </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/giải%20cầu%20lông%202013-7_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/giải%20cầu%20lông%202013-7_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Quần%20vợt3_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Quần%20vợt3_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/thacdaknong_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/thacdaknong_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    Đray Sáp</strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/bóng%20chuyền%202014c_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/bóng%20chuyền%202014c_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/giải%20cầu%20lông%202013-4_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/giải%20cầu%20lông%202013-4_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Bế%20mạc%20Tây%20nguyên8_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Bế%20mạc%20Tây%20nguyên8_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Quần%20vợt2_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Quần%20vợt2_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/IMG_2915_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/IMG_2915_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                                                   </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/giải%20cầu%20lông%202013-2_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/giải%20cầu%20lông%202013-2_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Bóng%20bàn_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Bóng%20bàn_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Đảng%20bộ_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Đảng%20bộ_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/banner%20ngay%20gia%20dinh%2028-6_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/banner%20ngay%20gia%20dinh%2028-6_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Quần%20vợt1_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Quần%20vợt1_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Đánh%20chiêng_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/Đánh%20chiêng_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
-                <li><a href="http://web.archive.org/web/20180903110007/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/bóng%20chuyền_jpg.jpg">
-                    <img src="http://web.archive.org/web/20180903110007im_/http://svhttdl.daknong.gov.vn/HoatDongAnh/Tin%20ảnh/_w/bóng%20chuyền_jpg.jpg" linksrc="/pages/hoat-dong-anh.aspx" alt=""/>
-                </a><span class="ppy-extcaption"><strong>
-                    </strong><br/>
-                    <br/>
-                </span></li>
-                
+                    <li>
+                                <a
+                                  href="/img/Banner/tva/1.jpg"
+                                >
+                                  <img
+                                    src="/img/Banner/tva/1.jpg"
+                                    linksrc="#"
+                                    alt=""
+                                  /> </a
+                                ><span class="ppy-extcaption"
+                                  ><strong> </strong><br />
+                                  <br />
+                                </span>
+                              </li>
+                              <li>
+                                <a
+                                  href="/img/Banner/tva/2.jpg"
+                                >
+                                  <img
+                                    src="/img/Banner/tva/2.jpg"
+                                    linksrc="#"
+                                    alt=""
+                                  /> </a
+                                ><span class="ppy-extcaption"
+                                  ><strong> </strong><br />
+                                  <br />
+                                </span>
+                              </li>              
+
             </ul>
             <div class="ppy-outer" style="float: left">
                 <div class="title-album">
