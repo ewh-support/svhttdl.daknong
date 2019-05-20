@@ -2210,7 +2210,7 @@ body #aspnetForm{
 height:100%;
 }
 a:link{
-/* [ReplaceColor(themeColor:"Hyperlink")] */ color:#fff;
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color:#91cdf2;
 text-decoration:none;
 }
 a:visited{
