@@ -1080,8 +1080,11 @@ font-size:1em;
 }
 .ms-WPBody a:link
 {
- color:#d00303;
+ /* color:#d00303; */
 text-decoration:none;
+}
+.thongbao-detail a.LItem {
+  color:black;
 }
 .ms-WPBody a:visited{
 /* [ReplaceColor(themeColor:"FollowedHyperlink")] */ color:#b10069;
@@ -2207,7 +2210,7 @@ body #aspnetForm{
 height:100%;
 }
 a:link{
-/* [ReplaceColor(themeColor:"Hyperlink")] */ color:#0072BC;
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color:#fff;
 text-decoration:none;
 }
 a:visited{
