@@ -378,18 +378,18 @@ div.tdImg, div.tdItem{
 .np-zone1 .back-home{
 	float:right;
 }
-.npLabel, .np-text-title, .npImgT, .motaImgT, .md-line-title{
+.npLabel, .np-text-title, .npImgT, .moTaNganImgT, .md-line-title{
 	float:left;
 	width:120px;
 	line-height:20px;
 	font-family:Arial;
 	font-size:12px;
 }
-.npImg, .motaImg{
+.npImg, .moTaNganImg{
 	float:left;
 	padding-top:5px;
 }
-.motaImg input{
+.moTaNganImg input{
 	width:150px;
 }
 .npImg img{
