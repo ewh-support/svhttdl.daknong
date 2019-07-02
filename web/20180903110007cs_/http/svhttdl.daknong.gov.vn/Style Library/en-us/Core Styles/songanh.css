@@ -1460,7 +1460,8 @@ td.Other{
 	border-bottom:1px #24a9e8 solid;padding-right:10px
 }
 .TitleFront{
-	padding:10px 10px 10px 0px
+	padding: 8px 0px 0px 10px;
+	background: url(/img/ico/icon_news.gif) no-repeat 0 12px;
 }
 .TitleFront a,.TitleFront a:link,.TitleFront a:visited{
 	text-decoration:none;

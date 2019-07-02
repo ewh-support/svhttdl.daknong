@@ -77,46 +77,9 @@ document.write('<script type="text/javascript" src="../../../../../_layouts/blan
 <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUBMA9kFgJmD2QWAgIBD2QWBAIBD2QWAgIGD2QWAmYPZBYCAgEPFgIeE1ByZXZpb3VzQ29udHJvbE1vZGULKYgBTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViQ29udHJvbHMuU1BDb250cm9sTW9kZSwgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YwFkAgMPZBYIAgQPZBYCBSZnX2QwMTdhMWE4XzBiMTJfNDI4OF9iN2YzX2UwZmI2ZTViOTllYQ9kFgRmDxYCHgdWaXNpYmxlaGQCAQ8WAh8BaGQCEg9kFgRmD2QWBAIBDxYCHwFoFgJmD2QWBAICD2QWBgIBDxYCHwFoZAIDDxYIHhNDbGllbnRPbkNsaWNrU2NyaXB0BXFqYXZhU2NyaXB0OkNvcmVJbnZva2UoJ1Rha2VPZmZsaW5lVG9DbGllbnRSZWFsJywxLCA1MywgJ2h0dHA6XHUwMDJmXHUwMDJmc3ZodHRkbC5kYWtub25nLmdvdi52bicsIC0xLCAtMSwgJycsICcnKR4YQ2xpZW50T25DbGlja05hdmlnYXRlVXJsZB4oQ2xpZW50T25DbGlja1NjcmlwdENvbnRhaW5pbmdQcmVmaXhlZFVybGQeDEhpZGRlblNjcmlwdAUiVGFrZU9mZmxpbmVEaXNhYmxlZCgxLCA1MywgLTEsIC0xKWQCBQ8WAh8BaGQCAw8PFgoeCUFjY2Vzc0tleQUBLx4PQXJyb3dJbWFnZVdpZHRoAgUeEEFycm93SW1hZ2VIZWlnaHQCAx4RQXJyb3dJbWFnZU9mZnNldFhmHhFBcnJvd0ltYWdlT2Zmc2V0WQLrA2RkAgMPZBYCAgEPZBYCAgMPZBYCAgEPPCsABQEADxYCHg9TaXRlTWFwUHJvdmlkZXIFEVNQU2l0ZU1hcFByb3ZpZGVyZGQCAQ9kFgYCBQ9kFgICAQ8QFgIfAWhkFCsBAGQCBw9kFgJmD2QWAmYPFCsAA2RkZGQCCQ8PFgIfAWhkZAImD2QWAgIBDw9kFgYeBWNsYXNzBSJtcy1zYnRhYmxlIG1zLXNidGFibGUtZXggczQtc2VhcmNoHgtjZWxscGFkZGluZwUBMB4LY2VsbHNwYWNpbmcFATBkAiwPZBYEAhEPZBYCZg9kFgJmDxBkDxYIZgIBAgICAwIEAgUCBgIHFggQBSEtLS0tLS0tLSBMacOqbiBr4bq/dCB3ZWIgLS0tLS0tLS1lZxAFJ0Lhu5kgdsSDbiBow7NhIHRo4buDIHRoYW8gdsOgIGR1IGzhu4tjaAUYaHR0cDovL3d3dy5jaW5ldC5nb3Yudm4vZxAFJUPhu5VuZyB0aMO0bmcgdGluIMSRaeG7h24gdOG7rSB04buJbmgFFWh0dHA6Ly9kYWtub25nLmdvdi52bmcQBRBCw6FvIMSQxINrIE7DtG5nBR1odHRwOi8vd3d3LmJhb2Rha25vbmcub3JnLnZuL2cQBTDEkMOgaSBwaMOhdCB0aGFuaCB2w6AgVHJ1eeG7gW4gaMOsbmggxJDEg2sgTsO0bmcFGmh0dHA6Ly9wdHRoZGFrbm9uZy5jb20udm4vZxAFNVPhu58gVsSDbiBow7NhIHRo4buDIHRoYW8gdsOgIER1IGzhu4tjaCDEkGnhu4duIEJpw6puBR5odHRwOi8vc3ZodHRkbGRpZW5iaWVuLmdvdi52bi9nEAUxU+G7nyB2xINuIGjDs2EgdGjhu4MgdGhhbyB2w6AgZHUgbOG7i2NoIEjDoCBO4buZaQUfaHR0cDovL3d3dy5oYW5vaXRvdXJpc20uZ292LnZuL2cQBS9T4bufIHbEg24gaMOzYSB0aOG7gyB0aGFvIHbDoCBkdSBs4buLY2ggVFAuIEhDTQUoaHR0cDovL3d3dy5zdmh0dGRsLmhvY2hpbWluaGNpdHkuZ292LnZuL2dkZAITD2QWAmYPZBYEAgEPPCsACQEADxYEHghEYXRhS2V5cxYAHgtfIUl0ZW1Db3VudAIHZBYOZg9kFgICAQ8WAh4EVGV4dAUBMGQCAQ9kFgICAQ8WAh8RBQE4ZAICD2QWAgIBDxYCHxEFATlkAgMPZBYCAgEPFgIfEQUBOGQCBA9kFgICAQ8WAh8RBQE3ZAIFD2QWAgIBDxYCHxEFATdkAgYPZBYCAgEPFgIfEQUBMGQCAw88KwAJAQAPFgQfDxYAHxACB2QWDmYPZBYCAgEPFgIfEQUBMGQCAQ9kFgICAQ8WAh8RBQEwZAICD2QWAgIBDxYCHxEFATBkAgMPZBYCAgEPFgIfEQUBMGQCBA9kFgICAQ8WAh8RBQEwZAIFD2QWAgIBDxYCHxEFATBkAgYPZBYCAgEPFgIfEQUBMmQYAQVHY3RsMDAkUGxhY2VIb2xkZXJUb3BOYXZCYXIkUGxhY2VIb2xkZXJIb3Jpem9udGFsTmF2JFRvcE5hdmlnYXRpb25NZW51VjQPD2QFBEhvbWVkRD+iyQVmT4z39VyJx9Tv9zTQ9UI="/>
 
 
-<script type="text/javascript">
-//<![CDATA[
-var MSOWebPartPageFormName = 'aspnetForm';
-var g_presenceEnabled = true;
-var g_wsaEnabled = false;
-var g_wsaLCID = 1066;
-var g_wsaSiteTemplateId = 'BLANKINTERNET#0';
-var g_wsaListTemplateId = 850;
-var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002f", webLanguage: 1033, currentLanguage: 1066, webUIVersion:4,pageListId:"{966097ee-3c0e-45f5-aa19-d1c505e7a339}",pageItemId:96, alertsEnabled:false, siteServerRelativeUrl: "\u002f", allowSilverlightPrompt:'True'};function CallServer_m1734416960(arg, context) {WebForm_DoCallback('ctl00$ctl15',arg,SP.UI.MyLinksRibbon.MyLinksRibbonPageComponent.ribbonActionCallback,context,null,false); }function _myLinksRibbonLoad2()
-{
-    var fnd = function () {
-        try {
-            mylinks_init.MyLinksInit('CallServer_m1734416960'); 
-        } 
-        catch (Ex)
-        { }
-    };
-    RegisterSod('mylinks_init', '/_layouts/SP.UI.MyLinksRibbon.js');
-    LoadSodByKey('mylinks_init', fnd);
-}
 
-function _myLinksRibbonLoad1()
-{
-    ExecuteOrDelayUntilScriptLoaded(_myLinksRibbonLoad2, 'SP.Ribbon.js');
-}
 
-_spBodyOnLoadFunctionNames.push('_myLinksRibbonLoad1');
-//]]>
-</script>
-<script type="text/javascript">
-<!--
-var L_Menu_BaseUrl="";
-var L_Menu_LCID="1066";
-var L_Menu_SiteTheme="";
-//-->
-</script>
-<script type="text/javascript">
-//<![CDATA[
-document.onreadystatechange=fnRemoveAllStatus; function fnRemoveAllStatus(){removeAllStatus(true)};var _spWebPartComponents = new Object();var __cultureInfo = '{"name":"vi-VN","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"₫","NaNSymbol":"NaN","CurrencyNegativePattern":8,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-Infinity","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":3,"PositiveInfinitySymbol":"Infinity","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"SA","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402275599999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":false},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"dd MMMM yyyy h:mm:ss tt","LongDatePattern":"dd MMMM yyyy","LongTimePattern":"h:mm:ss tt","MonthDayPattern":"dd MMMM","PMDesignator":"CH","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"h:mm tt","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["CN","Hai","Ba","Tư","Năm","Sáu","Bảy"],"ShortestDayNames":["C","H","B","T","N","S","B"],"DayNames":["Chủ Nhật","Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy"],"AbbreviatedMonthNames":["Thg1","Thg2","Thg3","Thg4","Thg5","Thg6","Thg7","Thg8","Thg9","Thg10","Thg11","Thg12",""],"MonthNames":["Tháng Giêng","Tháng Hai","Tháng Ba","Tháng Tư","Tháng Năm","Tháng Sáu","Tháng Bảy","Tháng Tám","Tháng Chín","Tháng Mười","Tháng Mười Một","Tháng Mười Hai",""],"IsReadOnly":false,"NativeCalendarName":"Dương Lịch","AbbreviatedMonthGenitiveNames":["Thg1","Thg2","Thg3","Thg4","Thg5","Thg6","Thg7","Thg8","Thg9","Thg10","Thg11","Thg12",""],"MonthGenitiveNames":["Tháng Giêng","Tháng Hai","Tháng Ba","Tháng Tư","Tháng Năm","Tháng Sáu","Tháng Bảy","Tháng Tám","Tháng Chín","Tháng Mười","Tháng Mười Một","Tháng Mười Hai",""]}}';//]]>
-</script>
+
 
 <script src="../../../../20180903110007js_/http%253A/svhttdl.daknong.gov.vn/_layouts/blank.js@rev=QGOYAJlouiWgFRlhHVlMKA%253D%253D" type="text/javascript"></script>
 <script type="text/javascript">
@@ -2873,11 +2836,8 @@ SP.Ribbon.DocLibAspxPageComponent.registerWithPageManager(initInfo);
 var g_disableCheckoutInEditMode = false;
 var _spWebPermMasks = {High:16,Low:200769};_spOriginalFormAction = document.forms[0].action; _spSuppressFormOnSubmitWrapper=true;//]]>
 </script>
-<script type="text/javascript" language="JavaScript" defer="defer">
-<!--
-function SearchEnsureSOD() { EnsureScript('search.js',typeof(GoSearch)); } _spBodyOnLoadFunctionNames.push('SearchEnsureSOD');function S3F5AE4C3_Submit() {if (document.getElementById('ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl04').value == '0') { document.getElementById('ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_S3F5AE4C3_InputKeywords').value=''; }SearchEnsureSOD();GoSearch('ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl04','ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_S3F5AE4C3_InputKeywords',null,true,false,null,'ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl00',null,null,'This Site','\u002fpages\u002fsearchresults.aspx', 'This Site','This List', 'This Folder', 'Related Sites', '\u002fpages\u002fsearchresults.aspx', '', 'Please enter one or more search words.');if (document.getElementById('ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl04').value == '0') { document.getElementById('ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_S3F5AE4C3_InputKeywords').value=''; }}
-// -->
-</script><script type="text/javascript" language="JavaScript">
+
+<script type="text/javascript" language="JavaScript">
 // append an onload event handler
 var S3F5AE4C3__onload= document.body.onload;
 if(typeof document.body.onload == 'function')
