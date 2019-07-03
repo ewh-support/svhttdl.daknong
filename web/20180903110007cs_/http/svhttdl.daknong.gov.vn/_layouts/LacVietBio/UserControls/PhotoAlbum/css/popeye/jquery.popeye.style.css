@@ -164,22 +164,22 @@
 
 #ppy1 .ppy-prev {
     width:          22px;
-    background:     url(../../../../../../../../../20180629171820im_/http%253A/svhttdl.daknong.gov.vn/_LAYOUTS/LacVietBio/UserControls/PhotoAlbum/gfx/popeye/prev3.png) no-repeat center;
+    /* background:     url(../../../../../../../../../20180629171820im_/http%253A/svhttdl.daknong.gov.vn/_LAYOUTS/LacVietBio/UserControls/PhotoAlbum/gfx/popeye/prev3.png) no-repeat center; */
 }
 
 #ppy1 .ppy-next {
     width:          22px;
-    background:     url(../../../../../../../../../20180629171820im_/http%253A/svhttdl.daknong.gov.vn/_LAYOUTS/LacVietBio/UserControls/PhotoAlbum/gfx/popeye/next3.png) no-repeat center;
+    /* background:     url(../../../../../../../../../20180629171820im_/http%253A/svhttdl.daknong.gov.vn/_LAYOUTS/LacVietBio/UserControls/PhotoAlbum/gfx/popeye/next3.png) no-repeat center; */
 }
 
 #ppy1 .ppy-switch-enlarge {
     width:          30px;
-    background:     url(../../../../../../../../../20180629171820im_/http%253A/svhttdl.daknong.gov.vn/_LAYOUTS/LacVietBio/UserControls/PhotoAlbum/gfx/popeye/enlarge3.png) no-repeat center;
+    /* background:     url(../../../../../../../../../20180629171820im_/http%253A/svhttdl.daknong.gov.vn/_LAYOUTS/LacVietBio/UserControls/PhotoAlbum/gfx/popeye/enlarge3.png) no-repeat center; */
 }
 
 #ppy1 .ppy-switch-compact {
     width:          30px;
-    background:     url(../../../../../../../../../20180629171820im_/http%253A/svhttdl.daknong.gov.vn/_LAYOUTS/LacVietBio/UserControls/PhotoAlbum/gfx/popeye/compact3.png) no-repeat center;
+    /* background:     url(../../../../../../../../../20180629171820im_/http%253A/svhttdl.daknong.gov.vn/_LAYOUTS/LacVietBio/UserControls/PhotoAlbum/gfx/popeye/compact3.png) no-repeat center; */
 }
 
 #ppy1 .ppy-nav a:hover {
