@@ -103,63 +103,77 @@
   // ]]></script></div></div><span><span class="s4-devdashboard"></span></span></div></div></div><script type="text/javascript">//<![CDATA[
           var g_commandUIHandlers = { "name": "CommandHandlers", "attrs": {}, "children": [] };
   //]]></script></div><div id="notificationArea" class="s4-noti"></div><span id="ctl00_SPNavigation_ctl00_publishingConsoleV4_publishingRibbon"></span><div id="WebPartAdderUpdatePanelContainer"><div id="ctl00_WebPartAdderUpdatePanel"><span id="ctl00_WebPartAdder"></span></div></div></div><div id="s4-workspace1"><div id="s4-bodyContainer"><div class="s4-title1 s4-lp1"><div class="s4-title-inner" style="display:none"><table class="s4-titletable" cellspacing="0"><tbody><tr><td class="s4-titlelogo"><a id="ctl00_onetidProjectPropertyTitleGraphic" href="/web/20180903110007/http/svhttdl.daknong.gov.vn/"><img id="ctl00_onetidHeadbnnr2" name="onetidHeadbnnr0" src="/web/20180903110007im_/http/svhttdl.daknong.gov.vn/_layouts/images/siteIcon.png" alt="Home" border="0"></a></td><td class="s4-titletext"><h1 name="onetidProjectPropertyTitle"><a id="ctl00_PlaceHolderSiteName_onetidProjectPropertyTitle" xenforcedminimumheight="" href="/web/20180903110007/http/svhttdl.daknong.gov.vn/" style="height: 14px; display: inline-block">Home</a></h1><span id="onetidPageTitleSeparator" class="s4-nothome s4-bcsep s4-titlesep"><span><span style="height:11px;width:11px;position:relative;display:inline-block;overflow:hidden"><img src="/img/fgimg.png" alt=":" border="0" style="position:absolute;left:-0px !important;top:-585px !important"></span></span></span><h2></h2><div class="s4-pagedescription" tabindex="0"></div></td><td class="s4-socialdata-notif"></td></tr></tbody></table></div><div class="v4-banner"><div class="logoS"><img src="/web/20180903110007oe_/http/svhttdl.daknong.gov.vn/imgSonganh/banner.png" width="960px" height="130px"></div><div class="ms-menu"><div class="ms-menuL"><div id="ctl00_g_38127cbf_fe35_442e_8c03_1377a9a9b047" webpart="true" __webpartid="{38127cbf-fe35-442e-8c03-1377a9a9b047}" __markuptype="vsattributemarkup"><script type="text/javascript">var dmenu = jQuery.noConflict();
-        dmenu(document).ready(function () {
+                    dmenu(document).ready(function () {
         
-          dmenu('.main-level').eq(0).addClass('levelnext');
+                      dmenu('.main-level').eq(0).addClass('levelnext');
         
-          //Kiểm tra FullPath
-          var CurrentPath = dmenu.trim(dmenu("div#PathFull").text());
-          var CurrentHomeChild = dmenu("a.tmenu[href*='" + CurrentPath + "']");
-          var CurrentHome = dmenu("li.parent").has(CurrentHomeChild).eq(0).addClass("LvSelected");
+                      //Kiểm tra FullPath
+                      var CurrentPath = dmenu.trim(dmenu("div#PathFull").text());
+                      var CurrentHomeChild = dmenu("a.tmenu[href*='" + CurrentPath + "']");
+                      var CurrentHome = dmenu("li.parent").has(CurrentHomeChild).eq(0).addClass("LvSelected");
         
-          //Kiểm tra Path
-          if (CurrentHomeChild.text() == '') {
-              CurrentPath = dmenu.trim(dmenu("div#Path").text());
-              CurrentHomeChild = dmenu("a.tmenu[href*='" + CurrentPath + "']");
-              CurrentHome = dmenu("li.parent").has(CurrentHomeChild).eq(0).addClass("LvSelected");
-          }
+                      //Kiểm tra Path
+                      if (CurrentHomeChild.text() == '') {
+                        CurrentPath = dmenu.trim(dmenu("div#Path").text());
+                        CurrentHomeChild = dmenu("a.tmenu[href*='" + CurrentPath + "']");
+                        CurrentHome = dmenu("li.parent").has(CurrentHomeChild).eq(0).addClass("LvSelected");
+                      }
         
-          //Kiểm tra Path2
-          if (CurrentHomeChild.text() == '') {
-              CurrentPath = dmenu.trim(dmenu("div#Path2").text());
-              CurrentHomeChild = dmenu("a.tmenu[href*='" + CurrentPath + "']");
-              CurrentHome = dmenu("li.parent").has(CurrentHomeChild).eq(0).addClass("LvSelected");
-          }
+                      //Kiểm tra Path2
+                      if (CurrentHomeChild.text() == '') {
+                        CurrentPath = dmenu.trim(dmenu("div#Path2").text());
+                        CurrentHomeChild = dmenu("a.tmenu[href*='" + CurrentPath + "']");
+                        CurrentHome = dmenu("li.parent").has(CurrentHomeChild).eq(0).addClass("LvSelected");
+                      }
         
-          // Không tìm thấy liên kết con nào trong menu.
-          if (CurrentHomeChild.text() == '') {
-              CurrentHome = dmenu("li.parent").eq(0).addClass("LvSelected");
-          }
+                      // Không tìm thấy liên kết con nào trong menu.
+                      if (CurrentHomeChild.text() == '') {
+                        CurrentHome = dmenu("li.parent").eq(0).addClass("LvSelected");
+                      }
         
-          dmenu("#wrapper").mouseleave(function () {
+                      dmenu("#wrapper").mouseleave(function () {
         
-              dmenu("ul#topnav > li > ul.children").css("display", "none");
-              dmenu("li").removeClass("LvSelected");
-              CurrentHome.addClass("LvSelected");
+                        dmenu("ul#topnav > li > ul.children").css("display", "none");
+                        dmenu("li").removeClass("LvSelected");
+                        CurrentHome.addClass("LvSelected");
         
-          });
+                      });
         
-          dmenu("li.parent").hover
-          (
-                 function () {
+                      dmenu("li.parent").hover
+                        (
+                          function () {
         
-                     dmenu("li").removeClass("LvSelected");
-                     dmenu(this).addClass("LvSelected");
-                     dmenu("ul#topnav").children("li").children("ul").css("display", "none");
-                     dmenu(this).children().css("display", "block");
-                 }
-                 , function () { }
+                            dmenu("li").removeClass("LvSelected");
+                            dmenu(this).addClass("LvSelected");
+                            dmenu("ul#topnav").children("li").children("ul").css("display", "none");
+                            dmenu(this).children().css("display", "block");
+                          }
+                          , function () { }
         
-          );
+                        );
         
-        });</script><div id="Path" style="display: none">//Pages/default.aspx/</div><div id="Path2" style="display: none">//Pages/default.aspx</div><div id="PathFull" style="display: none">/Pages/default.aspx</div><div id="wrapper"><ul id="topnav"><li class="parent LvSelected" id="firstlist0" duy="0"><div class="main-level levelnext" id="firstlist-div-0"><a class="tmenu" href="/"><span>Trang chủ</span></a></div></li><li class="parent" id="firstlist1" duy="1"><div class="main-level" id="firstlist-div-1"><a class="tmenu" href="/gioi-thieu"><span>Giới thiệu</span></a></div></li><li class="parent" id="firstlist2" duy="2"><div class="main-level" id="firstlist-div-2"><a class="tmenu" href="/tin-tuc-su-kien"><span>Tin tức</span></a></div></li><li class="parent" id="firstlist6" duy="6"><div class="main-level" id="firstlist-div-6"><a class="tmenu" href="/thu-tuc-hanh-chinh"><span>Thủ tục hành chính</span></a></div></li><li class="parent" id="firstlist7" duy="7"><div class="main-level" id="firstlist-div-7"><a class="tmenu" href="/van-ban-phap-luat"><span>Văn bản pháp luật</span></a></div><ul class="children" id="childrenlist8" style="display: none"><div class="second-list"><ul class="two-column"><li class="first-element" id="secondlist0"><a class="tmenu" href="#">Quốc hội</a></li><li id="secondlist1"><a class="tmenu" href="#">Chính phủ</a></li><li id="secondlist2"><a class="tmenu" href="#">Bộ Xây dựng</a></li></ul><ul class="two-column"><li id="secondlist3"><a class="tmenu" href="#">UBND tỉnh</a></li><li id="secondlist4"><a class="tmenu" href="#">Sở Xây dựng</a></li><li id="secondlist5"><a class="tmenu" href="#">Các bộ ban ngành</a></li></ul></div></ul></li><li class="parent" id="firstlist8" duy="8"><div class="main-level" id="firstlist-div-8"><a class="tmenu" href="/thong-tin-tuyen-truyen"><span>Thông tin tuyên truyền</span></a></div></li></ul></div></div></div></div><div class="dateSearch"><div class="searchL"><div class="time" style="float:left"><script language="JavaScript">function tS(){ x=new Date(); x.setTime(x.getTime()); return x; }
-        function y2(x){ x=(x<500)?x+1900:x; return String(x).substring(0,4) }
-        function k(){var ap="AM";
-        if ((tS().getHours())   > 11) { ap ="PM"; };return ap;}
-        function dT(){ 
+                    });</script><div id="Path" style="display: none">//Pages/default.aspx/</div><div id="Path2" style="display: none">//Pages/default.aspx</div><div id="PathFull" style="display: none">/Pages/default.aspx</div><div id="wrapper"><ul id="topnav"><li class="parent LvSelected" id="firstlist0" duy="0"><div class="main-level levelnext" id="firstlist-div-0"><a class="tmenu" href="/"><span>Trang chủ</span></a></div></li><li class="parent" id="firstlist1" duy="1"><div class="main-level" id="firstlist-div-1"><a class="tmenu" href="/gioi-thieu"><span>Giới thiệu</span></a></div></li><li class="parent" id="firstlist2" duy="2"><div class="main-level" id="firstlist-div-2"><a class="tmenu" href="/tin-tuc-su-kien"><span>Tin tức</span></a></div></li><li class="parent" id="firstlist6" duy="6"><div class="main-level" id="firstlist-div-6"><a class="tmenu" href="/thu-tuc-hanh-chinh"><span>Thủ tục hành chính</span></a></div></li><li class="parent" id="firstlist7" duy="7"><div class="main-level" id="firstlist-div-7"><a class="tmenu" href="/van-ban-phap-luat"><span>Văn bản pháp luật</span></a></div><ul class="children" id="childrenlist8" style="display: none"><div class="second-list"><ul class="two-column"><li class="first-element" id="secondlist0"><a class="tmenu" href="#">Quốc hội</a></li><li id="secondlist1"><a class="tmenu" href="#">Chính phủ</a></li><li id="secondlist2"><a class="tmenu" href="#">Bộ Xây dựng</a></li></ul><ul class="two-column"><li id="secondlist3"><a class="tmenu" href="#">UBND tỉnh</a></li><li id="secondlist4"><a class="tmenu" href="#">Sở Xây dựng</a></li><li id="secondlist5"><a class="tmenu" href="#">Các bộ ban ngành</a></li></ul></div></ul></li><li class="parent" id="firstlist8" duy="8"><div class="main-level" id="firstlist-div-8"><a class="tmenu" href="/thong-tin-tuyen-truyen"><span>Thông tin tuyên truyền</span></a></div></li></ul></div></div></div></div><div class="dateSearch"><div class="searchL"><div class="time" style="float:left"><script language="JavaScript">function tS() { x = new Date(); x.setTime(x.getTime()); return x; }
+                    function y2(x) { x = (x < 500) ? x + 1900 : x; return String(x).substring(0, 4) }
+                    function k() {
+                      var ap = "AM";
+                      if ((tS().getHours()) > 11) { ap = "PM"; }; return ap;
+                    }
+                    function dT() {
         
-        if(fr==0){ fr=1; document.write('<span id="tP">'+eval(oT)+'</span>'); } tP.innerText=eval(oT); setTimeout('dT()',1000); }
-        var dN=new Array('Chủ nhật','Thứ hai','Thứ ba','Thứ tư','Thứ năm','Thứ sáu','Thứ bảy'),mN=new Array('1','2','3','4','5','6','7','8','9','10','11','12'),fr=0,oT="dN[tS().getDay()]+', '+tS().getDate()+'/'+mN[tS().getMonth()]+'/'+y2(tS().getYear())+'-'+tS().getHours()+':'+tS().getMinutes()+' '+k()";</script><script language="JavaScript">dT();</script><span id="tP">Thứ tư, 10/4/2019-23:44 PM</span></div></div><div class="searchR"><div class="ms-search"><div class="s4-search s4-rp" id="s4-searcharea"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%" style="width:400px"><tbody><tr><td valign="top"><div webpartid="00000000-0000-0000-0000-000000000000" haspers="true" id="WebPartWPQ1" class="noindex" onlyformepart="true" allowdelete="false" style="width:400px"><div id="SRSB"><div id="ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e"><input name="ctl00$g_62b1b6bf_9557_4807_ae98_427bbc5d489e$ctl00" type="hidden" id="ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl00" value="http://svhttdl.daknong.gov.vn"><table class="ms-sbtable ms-sbtable-ex s4-search" cellpadding="0" cellspacing="0" border="0"><tbody><tr class="ms-sbrow"><td class="ms-sbcell"><input name="InputKeywords" type="text" value="Search this site..." maxlength="200" id="ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_S3F5AE4C3_InputKeywords" accesskey="S" title="Search..." class="ms-sbplain s4-searchbox-QueryPrompt" alt="Search..." onkeypress="return S3F5AE4C3_OSBEK(event);" onfocus="if (document.getElementById('ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl04').value =='0') {this.value=''; if (this.className == 's4-searchbox-QueryPrompt') this.className = ''; else this.className = this.className.replace(' s4-searchbox-QueryPrompt',''); document.getElementById('ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl04').value=1;}" onblur="if (this.value =='') {this.value='Search this site...'; if (this.className.indexOf('s4-searchbox-QueryPrompt') == -1) this.className += this.className?' s4-searchbox-QueryPrompt':'s4-searchbox-QueryPrompt'; document.getElementById('ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl04').value = '0'} else {document.getElementById('ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl04').value='1';}" style="width:170px"></td><td class="ms-sbgo ms-sbcell"><a id="ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_S3F5AE4C3_go" title="Search" href="javascript:S3F5AE4C3_Submit()"><img title="Search" onmouseover="this.src='\u002f_layouts\u002fimages\u002fgosearchhover15.png'" onmouseout="this.src='\u002f_layouts\u002fimages\u002fgosearch15.png'" class="srch-gosearchimg" alt="Search" src="/web/20180903110007im_/http/svhttdl.daknong.gov.vn/_layouts/images/gosearch15.png" border="0"></a></td><td class="ms-sbLastcell"></td></tr></tbody></table><input name="ctl00$g_62b1b6bf_9557_4807_ae98_427bbc5d489e$ctl04" type="hidden" id="ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl04" value="0"></div></div></div></td></tr></tbody></table></div></div></div></div></div></div><div id="s4-mainarea1" class="s4-pr s4-widecontentarea"><div class="snMain"><div class="zoneLeft"><div class="zoneLeft-wp"><menu class="ms-SrvMenuUI"><ie:menuitem id="MSOMenu_Help" iconsrc="/_layouts/images/HelpIcon.gif" onmenuclick="MSOWebPartPage_SetNewWindowLocation(MenuWebPart.getAttribute('helpLink'), MenuWebPart.getAttribute('helpMode'))" text="Help" type="option" style="display:none"></ie:menuitem></menu><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td valign="top"><div webpartid="00000000-0000-0000-0000-000000000000" haspers="true" id="WebPartWPQ2" width="100%" class="ms-WPBody" onlyformepart="true" allowdelete="false"><div id="ctl00_PlaceHolderMain_g_794aeafd_af4f_4542_83be_bdd333271f75"><script type="text/javascript" src="/js/jquery-1.4.1.js"></script><script type="text/javascript">var jLeftMenu = jQuery.noConflict();
+                      if (fr == 0) { fr = 1; document.write('<span id="tP">' + eval(oT) + '</span>'); } tP.innerText = eval(oT); setTimeout('dT()', 1000);
+                    }
+                    var dN = new Array('Chủ nhật', 'Thứ hai', 'Thứ ba', 'Thứ tư', 'Thứ năm', 'Thứ sáu', 'Thứ bảy'), mN = new Array('1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'), fr = 0, oT = "dN[tS().getDay()]+', '+tS().getDate()+'/'+mN[tS().getMonth()]+'/'+y2(tS().getYear())+'-'+tS().getHours()+':'+tS().getMinutes()+' '+k()";</script><script language="JavaScript">dT();</script></div></div><style>.style_tuyentruyen{
+                  position: absolute;
+                  width: 502px;
+                  font-size: 16px;
+                  padding-left: 201px;
+                  padding-top: 5px;
+                  color: red;
+                }</style><div class="div-maquee style_tuyentruyen"><div class="menudowwn"><script type="text/javascript">function start() {
+                      new mq("m1", 10);
+                      mqRotate(mqr, 10); // must come last
+                    }
+                    window.onload = doublecast(window.onload, start);</script><marquee><span>Nhiệt liệt chào mừng Đại hội Công đoàn Việt Nam lần thứ XII, nhiệm kỳ 2018 - 2023</span>&nbsp;&nbsp;&nbsp; <span>Kỷ niệm 90 năm Ngày Thành lập Công đoàn Việt Nam (28/7/1929 - 28/7/2019)</span>&nbsp;&nbsp;&nbsp;<span>Kỷ niệm 90 năm Ngày Thành lập Công đoàn Việt Nam (28/7/1929 - 28/7/2019)</span></marquee></div></div><div class="searchR"><div class="ms-search"><div class="s4-search s4-rp" id="s4-searcharea"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%" style="width:400px"><tbody><tr><td valign="top"><div webpartid="00000000-0000-0000-0000-000000000000" haspers="true" id="WebPartWPQ1" class="noindex" onlyformepart="true" allowdelete="false" style="width:400px"><div id="SRSB"><div id="ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e"><input name="ctl00$g_62b1b6bf_9557_4807_ae98_427bbc5d489e$ctl00" type="hidden" id="ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl00" value="http://svhttdl.daknong.gov.vn"><table class="ms-sbtable ms-sbtable-ex s4-search" cellpadding="0" cellspacing="0" border="0"><tbody><tr class="ms-sbrow"><td class="ms-sbcell"><input name="InputKeywords" type="text" value="Search this site..." maxlength="200" id="ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_S3F5AE4C3_InputKeywords" accesskey="S" title="Search..." class="ms-sbplain s4-searchbox-QueryPrompt" alt="Search..." onkeypress="return S3F5AE4C3_OSBEK(event);" onfocus="if (document.getElementById('ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl04').value =='0') {this.value=''; if (this.className == 's4-searchbox-QueryPrompt') this.className = ''; else this.className = this.className.replace(' s4-searchbox-QueryPrompt',''); document.getElementById('ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl04').value=1;}" onblur="if (this.value =='') {this.value='Search this site...'; if (this.className.indexOf('s4-searchbox-QueryPrompt') == -1) this.className += this.className?' s4-searchbox-QueryPrompt':'s4-searchbox-QueryPrompt'; document.getElementById('ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl04').value = '0'} else {document.getElementById('ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl04').value='1';}" style="width:170px"></td><td class="ms-sbgo ms-sbcell"><a id="ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_S3F5AE4C3_go" title="Search" href="javascript:S3F5AE4C3_Submit()"><img title="Search" onmouseover="this.src='\u002f_layouts\u002fimages\u002fgosearchhover15.png'" onmouseout="this.src='\u002f_layouts\u002fimages\u002fgosearch15.png'" class="srch-gosearchimg" alt="Search" src="/web/20180903110007im_/http/svhttdl.daknong.gov.vn/_layouts/images/gosearch15.png" border="0"></a></td><td class="ms-sbLastcell"></td></tr></tbody></table><input name="ctl00$g_62b1b6bf_9557_4807_ae98_427bbc5d489e$ctl04" type="hidden" id="ctl00_g_62b1b6bf_9557_4807_ae98_427bbc5d489e_ctl04" value="0"></div></div></div></td></tr></tbody></table></div></div></div></div></div></div><div id="s4-mainarea1" class="s4-pr s4-widecontentarea"><div class="snMain"><div class="zoneLeft"><div class="zoneLeft-wp"><menu class="ms-SrvMenuUI"><ie:menuitem id="MSOMenu_Help" iconsrc="/_layouts/images/HelpIcon.gif" onmenuclick="MSOWebPartPage_SetNewWindowLocation(MenuWebPart.getAttribute('helpLink'), MenuWebPart.getAttribute('helpMode'))" text="Help" type="option" style="display:none"></ie:menuitem></menu><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td valign="top"><div webpartid="00000000-0000-0000-0000-000000000000" haspers="true" id="WebPartWPQ2" width="100%" class="ms-WPBody" onlyformepart="true" allowdelete="false"><div id="ctl00_PlaceHolderMain_g_794aeafd_af4f_4542_83be_bdd333271f75"><script type="text/javascript" src="/js/jquery-1.4.1.js"></script><script type="text/javascript">var jLeftMenu = jQuery.noConflict();
                       jLeftMenu(function($) {
                         $(document).ready(function() {
                           $("div.ms-navheader").each(function() {
