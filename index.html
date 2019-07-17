@@ -262,8 +262,8 @@
                                         "application/json; charset=utf-8",
                                       dataType: "json",
                                       cache: false,
-                                      beforeSend: function () { },
-                                      success: function (result) {
+                                      beforeSend: function() {},
+                                      success: function(result) {
                                         if (action == "1") {
                                           jUnionNews("#divNew1")
                                             .eq(0)
@@ -289,7 +289,7 @@
                                           ).addClass("firstflag");
                                         }
                                       },
-                                      error: function () { }
+                                      error: function() {}
                                     });
                                   }
                                   function UnionSwitchMode2(bPrev) {
@@ -311,18 +311,18 @@
                                       jQueryNext = jQueryActive.prev().length
                                         ? jQueryActive.prev()
                                         : jUnionNews(
-                                          "#" +
-                                          idUnion_image_thumb +
-                                          " ul li:last"
-                                        );
+                                            "#" +
+                                              idUnion_image_thumb +
+                                              " ul li:last"
+                                          );
                                     else {
                                       jQueryNext = jQueryActive.next().length
                                         ? jQueryActive.next()
                                         : jUnionNews(
-                                          "#" +
-                                          idUnion_image_thumb +
-                                          " ul li:first"
-                                        );
+                                            "#" +
+                                              idUnion_image_thumb +
+                                              " ul li:first"
+                                          );
                                     }
                                     //animation
                                     var imgAlt = jQueryNext
@@ -350,7 +350,7 @@
                                     ).animate(
                                       { marginBottom: -imgDescHeight },
                                       0,
-                                      function () {
+                                      function() {
                                         jQueryActive.removeClass("active");
                                         jQueryNext.addClass("active");
                                         jUnionNews(
@@ -383,7 +383,7 @@
                                       ".lv_union_table_menuheader .tabselected"
                                     ).attr("id");
                                   }
-                                  jUnionNews(document).ready(function ($) {
+                                  jUnionNews(document).ready(function($) {
                                     $(
                                       ".union_image_thumb ul li:first"
                                     ).addClass("firstflag");
@@ -402,12 +402,12 @@
                                     );
 
                                     $(".union_image_thumb ul")
-                                      .live("mouseenter", function () {
+                                      .live("mouseenter", function() {
                                         clearInterval(
                                           UnionNewsRefreshInterval2
                                         );
                                       })
-                                      .live("mouseleave", function () {
+                                      .live("mouseleave", function() {
                                         UnionNewsRefreshInterval2 = setInterval(
                                           "UnionSwitchMode2()",
                                           "4000"
@@ -415,8 +415,8 @@
                                       });
 
                                     $(".union_image_thumb ul li")
-                                      .click(function () { })
-                                      .live("mouseenter", function () {
+                                      .click(function() {})
+                                      .live("mouseenter", function() {
                                         $(this).addClass("hover");
                                         var imgAlt = $(this)
                                           .find("img")
@@ -458,7 +458,7 @@
                                           ).animate(
                                             { marginBottom: -imgDescHeight },
                                             0,
-                                            function () {
+                                            function() {
                                               $(
                                                 ".union_main_image .Union_block p"
                                               ).html(m_ItemShortContent);
@@ -488,7 +488,7 @@
                                           ).animate(
                                             { marginBottom: -imgDescHeight },
                                             0,
-                                            function () {
+                                            function() {
                                               $(
                                                 ".union_main_image .Union_block p"
                                               ).html(m_ItemShortContent);
@@ -510,7 +510,7 @@
                                           );
                                         }
                                       })
-                                      .live("mouseleave", function () {
+                                      .live("mouseleave", function() {
                                         $(this).removeClass("hover");
                                         $(
                                           ".union_main_image .Union_block"
@@ -518,7 +518,7 @@
                                       });
                                     //Toggle button close
                                     $(".union_main_image a.collapse").click(
-                                      function () {
+                                      function() {
                                         var imgDescHeight = $(
                                           ".union_main_image"
                                         )
@@ -531,7 +531,7 @@
                                           ).animate(
                                             { marginBottom: "0" },
                                             0,
-                                            function () { }
+                                            function() {}
                                           );
                                         } else {
                                           //alert(1);
@@ -540,7 +540,7 @@
                                           ).animate(
                                             { marginBottom: -imgDescHeight },
                                             0,
-                                            function () { }
+                                            function() {}
                                           );
                                         }
                                         $(
@@ -549,7 +549,7 @@
                                       }
                                     );
 
-                                    $("#menu1").click(function () {
+                                    $("#menu1").click(function() {
                                       refreshUnionIntervalId = DoAction(
                                         "403801ec-b85b-41d6-993c-048fb0c0699a",
                                         "369536af-0833-44d1-be52-02564ab70a9c",
@@ -559,7 +559,7 @@
                                         "2"
                                       );
                                     });
-                                    $("#menu2").click(function () {
+                                    $("#menu2").click(function() {
                                       refreshUnionIntervalId = DoAction(
                                         "403801ec-b85b-41d6-993c-048fb0c0699a",
                                         "369536af-0833-44d1-be52-02564ab70a9c",
@@ -570,16 +570,16 @@
                                       );
                                     });
                                     $("#Union_bttNext")
-                                      .click(function () {
+                                      .click(function() {
                                         UnionSwitchMode2();
                                       })
                                       .hover(
-                                        function () {
+                                        function() {
                                           clearInterval(
                                             UnionNewsRefreshInterval2
                                           );
                                         },
-                                        function () {
+                                        function() {
                                           UnionNewsRefreshInterval2 = setInterval(
                                             "UnionSwitchMode2()",
                                             "4000"
@@ -588,16 +588,16 @@
                                       );
 
                                     $("#Union_bttPrevious")
-                                      .click(function () {
+                                      .click(function() {
                                         UnionSwitchMode2("true");
                                       })
                                       .hover(
-                                        function () {
+                                        function() {
                                           clearInterval(
                                             UnionNewsRefreshInterval2
                                           );
                                         },
-                                        function () {
+                                        function() {
                                           UnionNewsRefreshInterval2 = setInterval(
                                             "UnionSwitchMode2()",
                                             "4000"
@@ -676,7 +676,7 @@
 
                           var albumbox = jQuery.noConflict();
 
-                          albumbox(document).ready(function () {
+                          albumbox(document).ready(function() {
                             var optionsLeft = {
                               caption: "hover",
                               opacity: 0.8,
@@ -704,23 +704,23 @@
                             albumbox("div.ppy-nav").hide();
                             var flag = true;
 
-                            albumbox.doTimeout(transiteTime, function () {
+                            albumbox.doTimeout(transiteTime, function() {
                               if (flag == false) return false;
 
                               albumbox("a.ppy-next1").click();
                               return true;
                             });
 
-                            albumbox("a.ppy-next").click(function () {
+                            albumbox("a.ppy-next").click(function() {
                               flag = false;
                             });
-                            albumbox("a.ppy-prev").click(function () {
+                            albumbox("a.ppy-prev").click(function() {
                               flag = false;
                             });
                           });</script><div class="ppy-placeholder" style="height: 203px; width: 220px; float: left; margin: 0px"><div class="ppy ppy-active" id="ppy1" style="width: auto; height: auto; margin: 0px; top: 0px; left: auto; right: 0px"><ul class="ppy-imglist"><li><a href="/img/Banner/tva/1.jpg"><img src="/img/Banner/tva/1.jpg" linksrc="#" alt=""/> </a><span class="ppy-extcaption"><strong></strong><br/><br/></span></li><li><a href="/img/Banner/tva/2.jpg"><img src="/img/Banner/tva/2.jpg" linksrc="#" alt=""/> </a><span class="ppy-extcaption"><strong></strong><br/><br/></span></li></ul><div class="ppy-outer" style="float: left"><div class="title-album"><a href="#">Ảnh hoạt động</a></div><div class="ppy-stagewrap"><div class="ppy-stage" style="height: 185px; opacity: 1; display: block"><a href="#"><img id="duybox" src="/img/Banner/tva/2.jpg" width="220px"/></a></div></div><div class="ppy-nav" style="display: none"><div class="nav-wrap"><a class="ppy-prev" title="Previous image">Previous image</a> <a class="ppy-next" title="Next image">Next image</a> <a class="ppy-switch-enlarge" style="display:none" title="Enlarge">Enlarge</a> <a class="ppy-switch-compact ppy-hidden" style="display:none" title="Close">Close</a></div></div><div class="view-all-album" style="display: none"><a href="#">Xem tất cả</a></div></div></div></div><a class="ppy-next1" title="Next image" style="display:none">Next image</a></div></div></td></tr></tbody></table><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td valign="top"><div webpartid="00000000-0000-0000-0000-000000000000" haspers="true" id="WebPartWPQ3" width="100%" class="ms-WPBody noindex" onlyformepart="true" allowdelete="false"><div id="ctl00_PlaceHolderMain_g_c1fe138c_a453_4212_b4af_4856238be783"><script type="text/javascript" src="/js/jquery-1.4.1.js"></script><script type="text/javascript">$(document).ready(function () {
                             $(
                               "#ctl00_PlaceHolderMain_g_c1fe138c_a453_4212_b4af_4856238be783_ctl00_DropDownList1"
-                            ).change(function () {
+                            ).change(function() {
                               var codelocation = $(this).val();
 
                               // Mở ra một trang mới ngay tại trang hiện hành

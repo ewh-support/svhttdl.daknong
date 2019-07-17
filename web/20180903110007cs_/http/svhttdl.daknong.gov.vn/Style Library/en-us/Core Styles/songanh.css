@@ -62,7 +62,7 @@ li {
 	list-style: none;
 }
 .div-image a img{
-	border:1px solid #24a9e8;
+	border:0px;
 	padding-top:0px;
 }
 a img{
@@ -378,8 +378,7 @@ div.menuF1 a:hover{
 	background:#fff
 }
 .hlOTop{
-	margin-bottom:2px;
-	float:left
+	margin-bottom:10px;float:left
 }
 /*********** tin hot ************/
 .union_image_thumb ul li p{display: none;}
